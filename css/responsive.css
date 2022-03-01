@@ -1,0 +1,36 @@
+/* Laptop Device */
+@media (max-width: 990px) {
+  .home {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+}
+
+/*  Tableate Device */
+@media (max-width: 768px) {
+  .home_content h1 {
+    font-size: 2.5rem;
+  }
+
+  .home_content p {
+    font-size: 1rem;
+  }
+
+  .home_content h2 {
+    font-size: 2.5rem;
+  }
+
+  .sub_title {
+    font-size: 0.8rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 520px) {
+  .scrolled {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
